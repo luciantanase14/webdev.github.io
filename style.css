@@ -1,0 +1,228 @@
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+            
+            *,
+            *:after,
+            *:before {
+                box-sizing: border-box;
+            }
+            
+            .container-fluid {
+                padding-right: 0px;
+                padding-left: 0px;
+            }
+            
+            .logo {
+                width: 100%;
+                max-width: 300px;
+                height: auto;
+                display: block;
+                padding-top: 10px;
+                margin: 0 auto;
+            }
+            
+            .ic {
+                width: 20%;
+                height: auto;
+                float: left;
+            }
+            
+            .tt {
+                width: 80%;
+                float: left;
+            }
+            
+            .info-box {
+                padding: 55px 0px 0px 0px;
+                ;
+            }
+            
+            .col-xs-12 {
+                padding-left: 20px;
+            }
+            
+            .content-top {
+                background-color: #FFFFFF;
+                line-height: 135px;
+                width: 1170px;
+                -webkit-box-shadow: inset 0px -14px 7px -1px rgba(0, 0, 0, 0.13);
+                -moz-box-shadow: inset 0px -14px 7px -1px rgba(0, 0, 0, 0.13);
+                box-shadow: inset 0px -14px 7px -1px rgba(0, 0, 0, 0.13);
+            }
+            
+            .nav ul {
+                list-style: none;
+                background-color: #444;
+                text-align: center;
+                padding: 0;
+                margin: 0;
+            }
+            
+            .nav li {
+                font-family: 'Oswald', sans-serif;
+                font-size: 1.2em;
+                line-height: 40px;
+                height: 40px;
+                border-bottom: 1px solid #888;
+            }
+            
+            .nav a {
+                text-decoration: none;
+                color: #fff;
+                display: block;
+                transition: .3s background-color;
+            }
+            
+            .nav a:hover {
+                background-color: #005f5f;
+            }
+            
+            .nav a.active {
+                background-color: #fff;
+                color: #444;
+                cursor: default;
+            }
+            
+            @media screen and (min-width: 600px) {
+                .nav li {
+                    width: 120px;
+                    border-bottom: none;
+                    height: 50px;
+                    line-height: 50px;
+                    font-size: 1.4em;
+                }
+                /* Option 1 - Display Inline */
+                .nav li {
+                    display: inline-block;
+                    margin-right: -4px;
+                }
+            }
+            
+            .logo {
+                height: 135px;
+                max-width: 380px;
+                align-content: center;
+            }
+            
+            .text {
+                display: flex;
+                justify-content: flex-end;
+                align-items: flex-end;
+                width: 360px;
+                height: 110px;
+            }
+            
+            .row {
+                margin-right: 0px;
+                margin-left: 0px;
+            }
+            
+            .container {
+                padding-right: 0px;
+                padding-left: 0px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+            
+            .responsive-image {
+                height: auto;
+                width: 100%;
+            }
+            
+            .container_class {
+                width: 1170px;
+                margin: 0 auto;
+            }
+            
+            p {
+                padding-top: 25px;
+                margin: -15px 13px 2px;
+            }
+            
+            h4 {
+                font-family: 'Asar', serif;
+            }
+            
+            .butonel {
+                margin: -1px;
+                background-color: darkorange;
+            }
+            
+            .col_footer {
+                background-color: #A1A1A1;
+                padding: 20px;
+            }
+            
+            hr {
+                width: 100%;
+                display: block;
+                height: 1px;
+                border: 0;
+                border-top: 3px solid #F4BF08;
+                margin: 0.5em;
+                padding: 0;
+            }
+            
+            .form-area {
+                padding: 3px 10px 8px;
+                margin: -10px 0px 20px;
+            }
+            
+            .footer-color {
+                background-color: #222;
+                width: 100%;
+                padding-top: 15px;
+                pointer-events: none;
+                cursor: default;
+            }
+            
+            #site-footer {
+                border-top: 0px solid #ddd;
+                font-size: 21px;
+                padding: 0px;
+            }
+            
+            .side-one {
+                background-color: #cccccc;
+            }
+            
+            #myBtn {
+                display: inherit;
+                /* Hidden by default */
+                position: fixed;
+                /* Fixed/sticky position */
+                bottom: 65px;
+                /* Place the button at the bottom of the page */
+                right: 35px;
+                /* Place the button 30px from the right */
+                z-index: 99;
+                /* Make sure it does not overlap */
+                border: none;
+                /* Remove borders */
+                outline: none;
+                /* Remove outline */
+                background-color: red;
+                /* Set a background color */
+                color: white;
+                /* Text color */
+                cursor: pointer;
+                /* Add a mouse pointer on hover */
+                padding: 15px;
+                /* Some padding */
+                border-radius: 25px;
+                /* Rounded corners */
+            }
+            
+            #myBtn:hover {
+                background-color: #555;
+                /* Add a dark-grey background on hover */
+                /* Style all font awesome icons */
+            }
+            
+            .aranjament {
+                padding-left: 15px;
+                padding-top: 15px;
+            }
